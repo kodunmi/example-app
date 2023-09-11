@@ -1,0 +1,43 @@
+{
+    "variable": [
+        {
+            "key": "base_url",
+            "value": "http:\/\/localhost"
+        }
+    ],
+    "info": {
+        "name": "2023_09_11_105720_laravel_collection.json",
+        "_postman_id": "dcc6a49f-1880-41bc-b275-5b2a49f2bb74",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "api\/user",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application\/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application\/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}\/api\/user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "api",
+                        "user"
+                    ],
+                    "variable": []
+                }
+            }
+        }
+    ],
+    "event": []
+}
