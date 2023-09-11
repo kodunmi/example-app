@@ -1,7 +1,6 @@
 
 
 name: "Document generation"
-
 on:
   push:
     branches: [ "main" ]
