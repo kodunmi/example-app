@@ -1,3 +1,29 @@
-- name: Postman Collection Action
-   uses: jneate/postman-collection-action@v1
-            
+
+
+name: "Document generation"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+
+jobs:
+  document:
+    name: Documentation Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Sync Postman Collections
+        uses: jneate/postman-collection-action@v1
+        with:
+          postmanApiKey: ${{ secrets.postmanApiKey }}
+          postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
+
+      - name: Commit Updated Postman Collection IDs
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated Postman Collection ID
