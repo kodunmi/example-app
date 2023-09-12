@@ -19,19 +19,21 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
 
-      - name: Generate Postman documentations
+      - name: Generate Postman documentation
         run: |
           php artisan export:postman
           
-      - name: Generate Scribe documentations
-        run: |
-          php artisan scribe:generate
-
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action@v1
         with:
           postmanApiKey: ${{ secrets.postmanApiKey }}
           postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
+          
+      - name: Generate Scribe documentation
+        run: |
+          php artisan scribe:generate
+
+      
 
       # - name: Commit Updated Postman Collection IDs
       #   uses: stefanzweifel/git-auto-commit-action@v4
