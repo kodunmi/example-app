@@ -21,7 +21,6 @@ jobs:
 
       - name: Prepare Laravel Application
         run: |
-          php artisan key:generate
           php artisan export:postman
 
       - name: Sync Postman Collections
