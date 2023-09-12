@@ -19,9 +19,10 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
 
-      - name: Prepare Laravel Application
+      - name: Generate documentations
         run: |
           php artisan export:postman
+          php artisan scribe:generate
 
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action@v1
