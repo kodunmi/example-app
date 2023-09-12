@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Sync Postman Collections
-        uses: jneate/postman-collection-action@v1
+        uses: kodunmi/postman-collection-action@v1
         with:
           postmanApiKey: ${{ secrets.postmanApiKey }}
           postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
