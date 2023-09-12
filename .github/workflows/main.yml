@@ -27,11 +27,11 @@ jobs:
         run: |
           php artisan export:postman
           
-      - name: Sync Postman Collections
-        uses: kodunmi/postman-collection-action@v1
-        with:
-          postmanApiKey: ${{ secrets.postmanApiKey }}
-          postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
+      # - name: Sync Postman Collections
+      #   uses: kodunmi/postman-collection-action@v1
+      #   with:
+      #     postmanApiKey: ${{ secrets.postmanApiKey }}
+      #     postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
           
       - name: Generate Scribe documentation
         run: |
