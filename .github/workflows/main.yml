@@ -21,8 +21,8 @@ jobs:
 
       - name: Prepare Laravel Application
         run: |
-          cp .env.ci .env
           php artisan key:generate
+          php artisan export:postman
 
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action@v1
