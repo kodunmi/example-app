@@ -16,6 +16,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+        with:
+          command: php artisan export:postman
+
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action@v1
         with:
