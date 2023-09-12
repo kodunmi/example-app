@@ -19,9 +19,12 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
 
-      - name: Generate documentations
+      - name: Generate Postman documentations
         run: |
           php artisan export:postman
+          
+      - name: Generate Scribe documentations
+        run: |
           php artisan scribe:generate
 
       - name: Sync Postman Collections
