@@ -19,6 +19,11 @@ jobs:
       - name: Install dependencies
         uses: php-actions/composer@v6
 
+      - name: Prepare Laravel Application
+        run: |
+          cp .env.ci .env
+          php artisan key:generate
+
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action@v1
         with:
