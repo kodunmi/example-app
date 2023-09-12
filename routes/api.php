@@ -22,3 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/hello', function (Request $request) {
     return "hello world";
 });
+
+Route::get('/get-comma', function (Request $request) {
+    return "hello world";
+});
