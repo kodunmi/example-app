@@ -29,7 +29,7 @@ jobs:
           
           
       - name: Sync Postman Collections
-        uses: kodunmi/postman-collection-action@v1
+        uses: kodunmi/postman-collection-action-2@v1
         with:
           postmanApiKey: ${{ secrets.postmanApiKey }}
           postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
