@@ -26,3 +26,22 @@ Route::get('/hello', function (Request $request) {
 Route::get('/get-comma', function (Request $request) {
     return "hello world";
 });
+
+Route::get('/new-route', function (Request $request) {
+    return "hello world";
+});
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+        // Uses first & second middleware...
+    });
+
+    Route::get('/user/profile', function () {
+        // Uses first & second middleware...
+    });
+});
+
+
+Route::put('/test', function () {
+    return "hello world";
+});
