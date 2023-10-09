@@ -39,6 +39,12 @@ Route::prefix('admin')->group(function () {
     Route::get('/user/profile', function () {
         // Uses first & second middleware...
     });
+    Route::get('/user/1', function () {
+        // Uses first & second middleware...
+    });
+    Route::get('/user/{id}', function () {
+        // Uses first & second middleware...
+    });
 });
 
 
