@@ -53,6 +53,10 @@ Route::prefix('admin')->group(function () {
     Route::get('/user/shirt/{id}', function () {
         // Uses first & second middleware...
     });
+
+    Route::get('/user/pen/{id}', function () {
+        // Uses first & second middleware...
+    });
 });
 
 
