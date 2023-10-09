@@ -309,12 +309,12 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: sit
+        example: quisquam
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
-      id: sit
+      id: quisquam
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -359,12 +359,12 @@ endpoints:
         name: id
         description: 'The ID of the book.'
         required: true
-        example: corrupti
+        example: omnis
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
-      id: corrupti
+      id: omnis
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -409,12 +409,12 @@ endpoints:
         name: id
         description: 'The ID of the shirt.'
         required: true
-        example: deleniti
+        example: enim
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
-      id: deleniti
+      id: enim
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -459,12 +459,12 @@ endpoints:
         name: id
         description: 'The ID of the pen.'
         required: true
-        example: sunt
+        example: maiores
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
-      id: sunt
+      id: maiores
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -479,6 +479,56 @@ endpoints:
           cache-control: 'no-cache, private'
           x-ratelimit-limit: '60'
           x-ratelimit-remaining: '50'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/admin/user/red/{id}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the red.'
+        required: true
+        example: natus
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: natus
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: ''
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '49'
           access-control-allow-origin: '*'
         description: null
         custom: []

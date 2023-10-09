@@ -153,7 +153,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the user.'
-        example: sit
+        example: quisquam
         required: true
         schema:
           type: string
@@ -179,7 +179,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the book.'
-        example: corrupti
+        example: omnis
         required: true
         schema:
           type: string
@@ -205,7 +205,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the shirt.'
-        example: deleniti
+        example: enim
         required: true
         schema:
           type: string
@@ -231,7 +231,33 @@ paths:
         in: path
         name: id
         description: 'The ID of the pen.'
-        example: sunt
+        example: maiores
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/red/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserRedId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the red.'
+        example: natus
         required: true
         schema:
           type: string
