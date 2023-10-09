@@ -249,6 +249,97 @@ endpoints:
     custom: []
   -
     httpMethods:
+      - GET
+    uri: api/admin/user/1
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: ''
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '54'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/admin/user/{id}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the user.'
+        required: true
+        example: cum
+        type: string
+        enumValues: []
+        custom: []
+    cleanUrlParameters:
+      id: cum
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: ''
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '53'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
       - PUT
     uri: api/test
     metadata:
