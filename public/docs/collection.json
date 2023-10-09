@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Laravel",
-        "_postman_id": "65e9fbba-63d8-4270-837b-fcd58ac1be9b",
+        "_postman_id": "ff40b6b6-c47a-4e68-be35-36bbf5b93a76",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -415,7 +415,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "vero",
+                                    "value": "sit",
                                     "description": "The ID of the user."
                                 }
                             ]
@@ -479,7 +479,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "rerum",
+                                    "value": "corrupti",
                                     "description": "The ID of the book."
                                 }
                             ]
@@ -543,7 +543,7 @@
                                 {
                                     "id": "id",
                                     "key": "id",
-                                    "value": "omnis",
+                                    "value": "deleniti",
                                     "description": "The ID of the shirt."
                                 }
                             ]
@@ -583,6 +583,70 @@
                                 {
                                     "key": "x-ratelimit-remaining",
                                     "value": "51"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "*"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "GET api\/admin\/user\/pen\/{id}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/admin\/user\/pen\/:id",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/admin\/user\/pen\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "sunt",
+                                    "description": "The ID of the pen."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "content-type",
+                                    "value": "text\/html; charset=UTF-8"
+                                },
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "x-ratelimit-limit",
+                                    "value": "60"
+                                },
+                                {
+                                    "key": "x-ratelimit-remaining",
+                                    "value": "50"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
