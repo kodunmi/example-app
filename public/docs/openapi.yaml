@@ -153,7 +153,33 @@ paths:
         in: path
         name: id
         description: 'The ID of the user.'
-        example: cum
+        example: et
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/book/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserBookId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the book.'
+        example: velit
         required: true
         schema:
           type: string
