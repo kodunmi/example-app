@@ -1024,14 +1024,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/admin/user/dicta" \
+    --get "http://localhost/api/admin/user/placeat" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/admin/user/dicta"
+    "http://localhost/api/admin/user/placeat"
 );
 
 const headers = {
@@ -1140,10 +1140,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="id"                data-endpoint="GETapi-admin-user--id-"
-               value="dicta"
+               value="placeat"
                data-component="url">
     <br>
-<p>The ID of the user. Example: <code>dicta</code></p>
+<p>The ID of the user. Example: <code>placeat</code></p>
             </div>
                     </form>
 
@@ -1160,14 +1160,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/admin/user/book/laudantium" \
+    --get "http://localhost/api/admin/user/book/vel" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/admin/user/book/laudantium"
+    "http://localhost/api/admin/user/book/vel"
 );
 
 const headers = {
@@ -1276,10 +1276,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="id"                data-endpoint="GETapi-admin-user-book--id-"
-               value="laudantium"
+               value="vel"
                data-component="url">
     <br>
-<p>The ID of the book. Example: <code>laudantium</code></p>
+<p>The ID of the book. Example: <code>vel</code></p>
             </div>
                     </form>
 
@@ -1296,14 +1296,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/admin/user/shirt/eligendi" \
+    --get "http://localhost/api/admin/user/shirt/id" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/admin/user/shirt/eligendi"
+    "http://localhost/api/admin/user/shirt/id"
 );
 
 const headers = {
@@ -1412,10 +1412,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="id"                data-endpoint="GETapi-admin-user-shirt--id-"
-               value="eligendi"
+               value="id"
                data-component="url">
     <br>
-<p>The ID of the shirt. Example: <code>eligendi</code></p>
+<p>The ID of the shirt. Example: <code>id</code></p>
             </div>
                     </form>
 
@@ -1432,14 +1432,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/admin/user/pen/similique" \
+    --get "http://localhost/api/admin/user/pen/eaque" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/admin/user/pen/similique"
+    "http://localhost/api/admin/user/pen/eaque"
 );
 
 const headers = {
@@ -1548,10 +1548,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="id"                data-endpoint="GETapi-admin-user-pen--id-"
-               value="similique"
+               value="eaque"
                data-component="url">
     <br>
-<p>The ID of the pen. Example: <code>similique</code></p>
+<p>The ID of the pen. Example: <code>eaque</code></p>
             </div>
                     </form>
 
@@ -1568,14 +1568,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/admin/user/red/rerum" \
+    --get "http://localhost/api/admin/user/red/numquam" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/admin/user/red/rerum"
+    "http://localhost/api/admin/user/red/numquam"
 );
 
 const headers = {
@@ -1684,10 +1684,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="id"                data-endpoint="GETapi-admin-user-red--id-"
-               value="rerum"
+               value="numquam"
                data-component="url">
     <br>
-<p>The ID of the red. Example: <code>rerum</code></p>
+<p>The ID of the red. Example: <code>numquam</code></p>
             </div>
                     </form>
 

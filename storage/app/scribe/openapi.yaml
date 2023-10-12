@@ -153,7 +153,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the user.'
-        example: harum
+        example: placeat
         required: true
         schema:
           type: string
@@ -179,7 +179,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the book.'
-        example: voluptatibus
+        example: vel
         required: true
         schema:
           type: string
@@ -205,7 +205,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the shirt.'
-        example: et
+        example: id
         required: true
         schema:
           type: string
@@ -231,7 +231,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the pen.'
-        example: sequi
+        example: eaque
         required: true
         schema:
           type: string
@@ -257,7 +257,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the red.'
-        example: eaque
+        example: numquam
         required: true
         schema:
           type: string
