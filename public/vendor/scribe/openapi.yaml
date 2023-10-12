@@ -1,0 +1,277 @@
+openapi: 3.0.3
+info:
+  title: Laravel
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://localhost'
+paths:
+  /api/user:
+    get:
+      summary: ''
+      operationId: getApiUser
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+  /api/hello:
+    get:
+      summary: ''
+      operationId: getApiHello
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'hello world'
+      tags:
+        - Endpoints
+      security: []
+  /api/get-comma:
+    get:
+      summary: ''
+      operationId: getApiGetComma
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'hello world'
+      tags:
+        - Endpoints
+      security: []
+  /api/new-route:
+    get:
+      summary: ''
+      operationId: getApiNewRoute
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: 'hello world'
+      tags:
+        - Endpoints
+      security: []
+  /api/admin:
+    get:
+      summary: ''
+      operationId: getApiAdmin
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+  /api/admin/user/profile:
+    get:
+      summary: ''
+      operationId: getApiAdminUserProfile
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+  /api/admin/user/1:
+    get:
+      summary: ''
+      operationId: getApiAdminUser1
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+  '/api/admin/user/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the user.'
+        example: harum
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/book/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserBookId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the book.'
+        example: voluptatibus
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/shirt/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserShirtId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the shirt.'
+        example: et
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/pen/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserPenId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the pen.'
+        example: sequi
+        required: true
+        schema:
+          type: string
+  '/api/admin/user/red/{id}':
+    get:
+      summary: ''
+      operationId: getApiAdminUserRedId
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the red.'
+        example: eaque
+        required: true
+        schema:
+          type: string
+  /api/test:
+    put:
+      summary: ''
+      operationId: putApiTest
+      description: ''
+      parameters: []
+      responses: {  }
+      tags:
+        - Endpoints
+      security: []
+tags:
+  -
+    name: Endpoints
+    description: ''
