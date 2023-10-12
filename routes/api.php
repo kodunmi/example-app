@@ -64,6 +64,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/user/blue/{id}', function () {
         // Uses first & second middleware...
     });
+    Route::get('/user/dvdfb/{id}', function () {
+        // Uses first & second middleware...
+    });
 });
 
 
