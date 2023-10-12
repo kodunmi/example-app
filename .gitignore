@@ -2,7 +2,10 @@
 /node_modules
 /public/build
 /public/hot
-# /public/docs
+/public/docs
+
+/public/vendor/scribe
+/resources/views/scribe
 
 /public/storage
 /storage/*.key
@@ -19,4 +22,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-# /.scribe
+/.scribe
