@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9ac942c1db512bc75733abd29417cce",
+    "content-hash": "ec5168e6f708a82d254b5297eff2305f",
     "packages": [
         {
             "name": "andreaselia/laravel-api-to-postman",
@@ -5931,16 +5931,16 @@
         },
         {
             "name": "knuckleswtf/scribe",
-            "version": "4.23.1",
+            "version": "4.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/knuckleswtf/scribe.git",
-                "reference": "4960403638439ef3fc83a0843e795fb92a5fc4f1"
+                "reference": "e45e3afc5f97008294b9c18edd16666223e486a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/knuckleswtf/scribe/zipball/4960403638439ef3fc83a0843e795fb92a5fc4f1",
-                "reference": "4960403638439ef3fc83a0843e795fb92a5fc4f1",
+                "url": "https://api.github.com/repos/knuckleswtf/scribe/zipball/e45e3afc5f97008294b9c18edd16666223e486a2",
+                "reference": "e45e3afc5f97008294b9c18edd16666223e486a2",
                 "shasum": ""
             },
             "require": {
@@ -6014,7 +6014,7 @@
             ],
             "support": {
                 "issues": "https://github.com/knuckleswtf/scribe/issues",
-                "source": "https://github.com/knuckleswtf/scribe/tree/4.23.1"
+                "source": "https://github.com/knuckleswtf/scribe/tree/4.25.0"
             },
             "funding": [
                 {
@@ -6022,7 +6022,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-08-25T16:33:56+00:00"
+            "time": "2023-09-29T22:23:01+00:00"
         },
         {
             "name": "laravel/pint",
