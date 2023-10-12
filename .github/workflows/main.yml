@@ -29,7 +29,7 @@ jobs:
           
           
       - name: Sync Postman Collections
-        uses: kodunmi/postman-collection-action-new@v1.2.1
+        uses: kodunmi/postman-collection-action-new@v1.2.2
         with:
           postmanApiKey: ${{ secrets.postmanApiKey }}
           postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
@@ -37,10 +37,3 @@ jobs:
       - name: Generate Scribe documentation
         run: |
           php artisan scribe:generate
-
-      
-
-      - name: Commit Updated Scribe Doc
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Updated Scribe doc
