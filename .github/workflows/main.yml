@@ -28,6 +28,7 @@ jobs:
           php artisan scribe:generate
           
           
+          
       - name: Sync Postman Collections
         uses: kodunmi/postman-collection-action-new@v1.2.2
         with:
