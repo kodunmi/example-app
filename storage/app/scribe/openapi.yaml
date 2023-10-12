@@ -153,7 +153,11 @@ paths:
         in: path
         name: id
         description: 'The ID of the user.'
+<<<<<<< HEAD:storage/app/scribe/openapi.yaml
         example: dicta
+=======
+        example: quisquam
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc:public/docs/openapi.yaml
         required: true
         schema:
           type: string
@@ -179,7 +183,11 @@ paths:
         in: path
         name: id
         description: 'The ID of the book.'
+<<<<<<< HEAD:storage/app/scribe/openapi.yaml
         example: laudantium
+=======
+        example: omnis
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc:public/docs/openapi.yaml
         required: true
         schema:
           type: string
@@ -205,7 +213,11 @@ paths:
         in: path
         name: id
         description: 'The ID of the shirt.'
+<<<<<<< HEAD:storage/app/scribe/openapi.yaml
         example: eligendi
+=======
+        example: enim
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc:public/docs/openapi.yaml
         required: true
         schema:
           type: string
@@ -231,7 +243,11 @@ paths:
         in: path
         name: id
         description: 'The ID of the pen.'
+<<<<<<< HEAD:storage/app/scribe/openapi.yaml
         example: similique
+=======
+        example: maiores
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc:public/docs/openapi.yaml
         required: true
         schema:
           type: string
@@ -257,7 +273,11 @@ paths:
         in: path
         name: id
         description: 'The ID of the red.'
+<<<<<<< HEAD:storage/app/scribe/openapi.yaml
         example: rerum
+=======
+        example: natus
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc:public/docs/openapi.yaml
         required: true
         schema:
           type: string

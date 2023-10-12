@@ -307,12 +307,20 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
+<<<<<<< HEAD
         example: dicta
+=======
+        example: quisquam
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
+<<<<<<< HEAD
       id: dicta
+=======
+      id: quisquam
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -357,12 +365,20 @@ endpoints:
         name: id
         description: 'The ID of the book.'
         required: true
+<<<<<<< HEAD
         example: laudantium
+=======
+        example: omnis
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
+<<<<<<< HEAD
       id: laudantium
+=======
+      id: omnis
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -407,12 +423,20 @@ endpoints:
         name: id
         description: 'The ID of the shirt.'
         required: true
+<<<<<<< HEAD
         example: eligendi
+=======
+        example: enim
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
+<<<<<<< HEAD
       id: eligendi
+=======
+      id: enim
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -457,12 +481,20 @@ endpoints:
         name: id
         description: 'The ID of the pen.'
         required: true
+<<<<<<< HEAD
         example: similique
+=======
+        example: maiores
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
+<<<<<<< HEAD
       id: similique
+=======
+      id: maiores
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -507,12 +539,20 @@ endpoints:
         name: id
         description: 'The ID of the red.'
         required: true
+<<<<<<< HEAD
         example: rerum
+=======
+        example: natus
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
         type: string
         enumValues: []
         custom: []
     cleanUrlParameters:
+<<<<<<< HEAD
       id: rerum
+=======
+      id: natus
+>>>>>>> b5ddf71a2f156a9e0db5d2e62f16cd928329c4bc
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
