@@ -25,7 +25,7 @@ jobs:
 
       - name: Generate Postman documentation
         run: |
-          php artisan export:postman
+          php artisan scribe:generate
           
           
       - name: Sync Postman Collections
@@ -34,6 +34,6 @@ jobs:
           postmanApiKey: ${{ secrets.postmanApiKey }}
           postmanWorkspaceId: ${{ secrets.postmanWorkspaceId }}
           
-      - name: Generate Scribe documentation
-        run: |
-          php artisan scribe:generate
+      # - name: Generate Scribe documentation
+      #   run: |
+      #     php artisan scribe:generate
